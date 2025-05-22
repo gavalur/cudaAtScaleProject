@@ -1,4 +1,4 @@
-## CUDAAtScaleEnterpriseProject - CUDA NPP image filtering module
+# CUDAAtScaleEnterpriseProject - CUDA NPP image filtering module
 
 ## Description
 
@@ -15,20 +15,20 @@ Currently the module provides support for two filters:
 
 ## Code structure 
 
-## ImageFilter.h
+### ImageFilter.h
 Wrapper to invoke the filtering process
 
-## ImageProcessor.h
+### ImageProcessor.h
 Core of the functionality.  This file provides an extensible scaffolding for adding new filters with minimal code changes.  This could be extended in future to chain multiple filters.
 
-## ArgsParser.h
+### ArgsParser.h
 Responsible to parse input arguments as well as optional parameters for individual filters
 
-## Config.h
+### Config.h
 Stores global config values
 
 
-## Usage  
+### Usage  
 ```
 cd imageFilter
 make clean all
